@@ -1,0 +1,159 @@
+CSS
+html, body {
+    margin: 0;
+    padding: 0;  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+nav ul{
+    display: flex;
+   list-style: none;
+   gap: 20px;
+}
+.common-btn{ padding: 10px 20px;
+border: none;
+background-color: #2d5bff;
+color: white;
+border-radius: 8px;
+}
+.logo{
+    padding:8px 30px;
+}
+/* Header End */
+
+.hero{
+    background-image: url(./B14-A01-DevConf-2026/image/banner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 80vh;
+color:white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 20px;
+align-items: center;
+
+}
+
+.hero p{
+    font-size: 16px;
+    max-width: 660px;
+    margin-top:0px;
+    margin-bottom: 20px;
+}
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 10px
+}
+/* Hero End  */
+
+.speakers{
+    width: 85%;
+    margin: 100px auto;
+}
+.speakers h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.card{
+    background-color: rgb(247, 244, 245);
+border-radius: 20px;
+    overflow: hidden;
+    box-shadow:0px 4px 20px cornsilk;
+}
+
+.card img {
+      width: 100%;
+      height: 300px;
+       object-fit: cover;
+         display: block;
+}
+.card-container{
+    padding: 15px;
+}
+.category{
+    color: blue;
+    font-size: 13px;
+    font-weight: bold; 
+}
+.card-container h3{
+    font-size:22px;
+    margin-top:1%;
+    margin-bottom: 10px;
+}
+.card-container p{
+    margin-bottom: 10px;
+    color: gray;}
+
+/* Speaker End  */
+
+.pricing{
+    width: 85%;
+    margin:120px auto;
+}
+.pricing h2{
+    text-align: center;
+    font-size:50px;
+    margin-bottom:30px;
+}
+.pricing>p{
+    text-align: center;
+    color: gray;
+margin-bottom: 60px;
+}
+.pricing-container{
+    display: flex;
+    gap: 30px;
+}
+
+.pricing-card{
+    flex: 1;
+    padding: 40px;
+    background: white;
+    border-radius:15px;
+}
+.pricing-card{ box-shadow:0px 5px 20px;  
+}
+.price-info h4{
+    color: grey;
+    margin-bottom:15px;
+}
+.price-info h1 { font-size:30px;
+    margin-bottom:10px;
+}
+.card-text{
+    color: gray;
+    margin-bottom:15px;
+}
+
+.pricing-card ul{
+    margin-bottom:35px;
+    padding-left:20px;
+}
+.pricing-card li{
+     margin-bottom:15px;
+    line-height:20px;
+}
+.pricing-card button{
+    width:100%;
+    padding:15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2563eb;
+    color: white;
+    align-items: center;
+}
