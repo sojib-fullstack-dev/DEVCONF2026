@@ -1,14 +1,20 @@
-
-html, body {
-    margin: 0 ;
-    padding: 0 ;  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
+
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 20px 0px;
+      width:90%;
+    margin:auto;
 }
 
 nav ul{
@@ -30,7 +36,7 @@ cursor: pointer;
 font-weight: bold;
 }
 .logo{
-    padding:8px 30px;
+    padding:0px;
 }
 
 
@@ -47,7 +53,6 @@ justify-content: center;
 text-align: center;
 padding: 20px;
 align-items: center;
-
 }
 
 .hero p{
@@ -170,7 +175,7 @@ margin-bottom: 60px;
 
 
 .faq{
-    width: 85%;
+    width:85%;
     margin:120px auto;
 }
 .faq h2{
