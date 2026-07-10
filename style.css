@@ -1,7 +1,7 @@
-CSS
+
 html, body {
-    margin: 0;
-    padding: 0;  
+    margin: 0 ;
+    padding: 0 ;  
 }
 
 nav{
@@ -16,25 +16,32 @@ nav ul{
    list-style: none;
    gap: 20px;
 }
+nav ul li{
+    cursor:pointer;
+}
+
+
 .common-btn{ padding: 10px 20px;
 border: none;
 background-color: #2d5bff;
 color: white;
 border-radius: 8px;
+cursor: pointer;
+font-weight: bold;
 }
 .logo{
     padding:8px 30px;
 }
-/* Header End */
+
 
 .hero{
-    background-image: url(./B14-A01-DevConf-2026/image/banner.jpg);
+    background-image : url(./B14-A01-DevConf-2026/image/banner.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 min-height: 80vh;
 color:white;
-display: flex;
+display:flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
@@ -73,7 +80,7 @@ align-items: center;
     background-color: rgb(247, 244, 245);
 border-radius: 20px;
     overflow: hidden;
-    box-shadow:0px 4px 20px cornsilk;
+    box-shadow:0px 5px 20px rgba(0,0,0,.1);
 }
 
 .card img {
@@ -126,13 +133,15 @@ margin-bottom: 60px;
     background: white;
     border-radius:15px;
 }
-.pricing-card{ box-shadow:0px 5px 20px;  
+.pricing-card{
+     box-shadow:0px 5px 20px rgba(0,0,0,.1);
 }
 .price-info h4{
     color: grey;
     margin-bottom:15px;
 }
-.price-info h1 { font-size:30px;
+.price-info h1 {
+     font-size:30px;
     margin-bottom:10px;
 }
 .card-text{
@@ -157,3 +166,43 @@ margin-bottom: 60px;
     color: white;
     align-items: center;
 }
+    /* Card End  */
+
+
+.faq{
+    width: 85%;
+    margin:120px auto;
+}
+.faq h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:60px;
+}
+.faq-card{
+    background: white;
+    padding: 20px;
+        border-radius:15px;
+    margin-bottom:20px;
+    box-shadow:0px 5px 20px rgba(0,0,0,.1);
+}
+
+.faq-card h3{
+    margin-bottom:15px;
+}
+.faq-card p{
+    color:gray;
+}
+
+/* Start Footer  */
+.footer{
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.footer p{
+    color: lightgray;
+    margin: 20px 0;
+}
+
