@@ -209,6 +209,12 @@ color: #2563eb;
     line-height:35px;
     color: aliceblue;
 }
+.pricing-card .item li::marker {
+    color: #3b82f6;
+}
+.pricing-card2 .item2 li::marker {
+    color: #3b82f6;
+}
 
 
 .btn-1{   width:100%;
