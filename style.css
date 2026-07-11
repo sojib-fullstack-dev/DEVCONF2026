@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  
 }
 body{
     overflow-x: hidden;
@@ -13,7 +13,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
-      width:90%;
+        width:90%;
     margin:auto;
 }
 
@@ -34,37 +34,55 @@ color: white;
 border-radius: 8px;
 cursor: pointer;
 font-weight: bold;
+
 }
 .logo{
     padding:0px;
 }
+/* End */
+/* Hero Start  */
 
-
-.hero{
-    background-image : url(./B14-A01-DevConf-2026/image/banner.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-min-height: 80vh;
-color:white;
-display:flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-padding: 20px;
-align-items: center;
+.hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.89), rgba(145, 145, 151, 0)), url(./B14-A01-DevConf-2026/image/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
 }
 
-.hero p{
-    font-size: 16px;
-    max-width: 660px;
-    margin-top:0px;
-    margin-bottom: 20px;
+.hero-container{
+    color: white;
+    margin-top: 120px;
 }
-.hero h1{
-    font-size: 50px;
-    margin-bottom: 10px
+.hero-container h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom:20px;
 }
+.hero-container p{
+    
+    font-size:17px;
+    color: #ffffffec;
+    margin-bottom:280px;
+}
+.hero-container button{
+        padding: 11px 25px;
+    background-color: rgb(41, 41, 238);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+
+
 /* Hero End  */
 
 .speakers{
@@ -112,6 +130,14 @@ border-radius: 20px;
     color: gray;}
 
 /* Speaker End  */
+.pricing-contant{
+    text-align: center;
+    margin-top: 35px; 
+    margin-bottom:50px;  
+}
+.hr{
+    margin-bottom: 20px;
+}
 
 .pricing{
     width: 85%;
@@ -141,6 +167,20 @@ margin-bottom: 60px;
 .pricing-card{
      box-shadow:0px 5px 20px rgba(0,0,0,.1);
 }
+.pricing-card2{
+        flex: 1;
+    padding: 40px;
+    background:black;
+    border-radius:15px;
+box-shadow:0px 5px 20px rgba(0,0,0,.1);
+}
+.price-info .pro{
+    font-weight: bold;
+color: #2563eb;
+}
+.price-info .price{
+    color: white;
+}
 .price-info h4{
     color: grey;
     margin-bottom:15px;
@@ -160,10 +200,28 @@ margin-bottom: 60px;
 }
 .pricing-card li{
      margin-bottom:15px;
-    line-height:20px;
+    line-height:20px;}
+
+.item2{
+      margin-bottom:35px;
+    padding-left:20px;
+     margin-bottom:28px;
+    line-height:35px;
+    color: aliceblue;
 }
-.pricing-card button{
-    width:100%;
+
+
+.btn-1{   width:100%;
+    padding:15px;
+    border:1px solid rgb(8, 8, 231);
+    border-radius: 10px;
+    background-color:white;
+    color:blue;
+    align-items: center;
+
+}
+.btn-2{
+      width:100%;
     padding:15px;
     border: none;
     border-radius: 10px;
@@ -171,6 +229,16 @@ margin-bottom: 60px;
     color: white;
     align-items: center;
 }
+.btn-3{
+     width:100%;
+    padding:15px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    color:black;
+    align-items: center;
+}
+
     /* Card End  */
 
 

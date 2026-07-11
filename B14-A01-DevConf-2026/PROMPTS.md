@@ -16,4 +16,4 @@
         <p>Refunds are available until August 1, 2026.</p>
 </div>
 
-    </section>
+</section>
